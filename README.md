@@ -1,30 +1,32 @@
-# 🔊 Sonic Sentinel — Frontend
+# 🔊 Sonic Sentinel — Frontend Mobile Application
 
-Sonic Sentinel is a React Native mobile application focused on audio/sound processing and sentinel detection workflows.
+Sonic Sentinel is an Intelligent Audio Detection & Emergency Sentinel mobile application built using React Native. The system is designed to perform real-time acoustic analysis on mobile devices, enabling automated detection of critical sound events (such as sirens, glass breaking, or distress calls) and triggering instant local and remote alert notifications.
 
-## 🚀 Key Features
+---
 
-- **Real-Time Sound Processing:** Mobile interface for capturing and interacting with audio signals.
-- **Intuitive UI:** Designed for seamless user navigation and alert visualization.
-- **Cross-Platform:** Built using React Native for Android and iOS support.
+## 🎯 System Overview & Key Features
 
-## 🛠️ Tech Stack
+- **Real-Time Audio Stream Processing:** Low-latency mobile audio capturing and streaming pipeline configured for background signal monitoring.
+- **Intelligent Alert Visualization:** Real-time visual feedback, audio waveforms, and dynamic alert popups upon detecting high-priority sound signatures.
+- **Incident Mapping & History Logs:** Complete UI dashboard displaying logged events, frequency timelines, and categorized sound threat histories.
+- **Cross-Platform Performance:** Native mobile UI built with React Native for optimized performance on Android devices.
+- **Emergency Dispatch Workflows:** Configured triggers for automated notification dispatch and location-tagged emergency alerts.
 
-- **Framework:** React Native
-- **Language:** TypeScript / JavaScript
-- **State Management & Tooling:** Metro, Babel
+---
 
-## 📋 Prerequisites
+## 🏗️ Technical Architecture & Stack
 
-Make sure you have the following installed on your development machine:
+| Component | Technology / Library |
+| :--- | :--- |
+| **UI Framework** | React Native |
+| **Language** | TypeScript / JavaScript (ES6+) |
+| **Bundler & Build Tooling** | Metro, Babel |
+| **Target Platform** | Android SDK |
 
-- Node.js (v18+ recommended)
-- Android Studio / React Native CLI
-- JDK 17
+---
 
-## ⚙️ Getting Started
+## 📱 Core UI Modules
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Amna-Ilyas-pxl/SonicSentinelFrontend.git](https://github.com/Amna-Ilyas-pxl/SonicSentinelFrontend.git)
-   cd SonicSentinelFrontend
+1. **Live Acoustic Dashboard:** Visual indicator for current ambient noise levels and live sound processing.
+2. **Alert & Incident Feed:** Color-coded threat levels and time-stamped detection event cards.
+3. **Emergency Contacts & Settings:** Custom user controls for alert thresholds, notification preferences, and emergency contact lists.
