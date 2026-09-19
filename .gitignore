@@ -1,0 +1,4 @@
+node_modules/ 
+android/ 
+.vscode/ 
+crash_log.txt 
